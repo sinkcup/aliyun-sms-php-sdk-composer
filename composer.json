@@ -1,0 +1,21 @@
+{
+    "name": "sinkcup/aliyun-sms",
+    "description": "阿里云短信服务PHP SDK composer版",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sinkcup",
+            "homepage": "https://github.com/sinkcup",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Aliyun\\": "src/"
+        }
+    },
+    "require": {
+        "ext-curl": "*"
+    }
+}
